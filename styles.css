@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; /* Escogemso tamaño para el div container */
+    height: 400px; /* Escogemos tamaño para el div container */
+    background-color: red;
+}
+
+.square {
+    width: 300px; /* Podremos cambiar el tamaño de div */
+    height: 300px; /* Podremos cambiar el tamaño del div */
+    background-color: blue;
+    border-radius: 20px;
+}
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Ajustamos el tamaño del circulo */
+    height: 100px; /* Ajustamos el tamaño del circulo*/
+    background-color: green;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
